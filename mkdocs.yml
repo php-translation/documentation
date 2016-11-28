@@ -1,0 +1,10 @@
+site_name: PHP-Translation Documentation
+copyright: © 2016-2017 PHP Translation
+theme: readthedocs
+extra_css:
+    - css/extra.css
+markdown_extensions:
+    - toc:
+          permalink: true
+    - sane_lists
+    - admonition
