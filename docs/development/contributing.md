@@ -42,7 +42,7 @@ $ git clone git@github.com:your-name/repo-name.git
 $ git checkout -b feature-or-bug-fix-description
 ```
 
-Then install the dependencies through Composer_:
+Then install the dependencies through [Composer]:
 
 ```bash
 $ composer install
@@ -109,6 +109,7 @@ License
 
 All of our packages are licensed under the [MIT license](license.md).
 
+[Composer]: https://getcomposer.org/
 [PHPUnit]: http://phpunit.de/
 [PHPSpec]: http://phpspec.net/
 [guidelines]: http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
