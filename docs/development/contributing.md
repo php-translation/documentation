@@ -107,7 +107,7 @@ By participating in this project you agree to abide by its terms.
 License
 -------
 
-All of our packages are licensed under the [MIT license](licence.md).
+All of our packages are licensed under the [MIT license](license.md).
 
 [PHPUnit]: http://phpunit.de/
 [PHPSpec]: http://phpspec.net/
