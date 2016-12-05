@@ -101,13 +101,13 @@ In this case, your patch can only be included in the next major version.
 Contributor Code of Conduct
 ---------------------------
 
-This project is released with a [Code of conduct](/development/code-of-conduct).
+This project is released with a [Code of conduct](code-of-conduct.md).
 By participating in this project you agree to abide by its terms.
 
 License
 -------
 
-All of our packages are licensed under the [MIT license](/development/licence).
+All of our packages are licensed under the [MIT license](licence.md).
 
 [PHPUnit]: http://phpunit.de/
 [PHPSpec]: http://phpspec.net/
