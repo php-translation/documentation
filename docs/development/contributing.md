@@ -18,7 +18,7 @@ Security Issues
 ---------------
 
 If you discover any security related issues,
-please contact us at security@php-http.org instead of submitting an issue on GitHub.
+please contact us at tobias.nyholm@gmail.com instead of submitting an issue on GitHub.
 This allows us to fix the issue and release a security hotfix without publicly disclosing the vulnerability.
 
 
