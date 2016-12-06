@@ -76,7 +76,6 @@ for automatic translation, web UI, third party services and more.
 .. toctree::
    :hidden:
    :caption: Introduction
-   :maxdepth: 0
 
    Adding extractors <introduction/adding-extractor>
 
@@ -84,15 +83,14 @@ for automatic translation, web UI, third party services and more.
    :hidden:
    :caption: Components
 
-   Symfony bundle <symfony-bundle/index>
+   Symfony bundle <components/symfony-bundle>
 
 .. toctree::
    :hidden:
    :caption: Best practice
-   :maxdepth: 0
 
-   Intro <best-practice/index.rst>
-   Using service <best-practice/using-service.rst>
+   Intro <best-practice/index>
+   Using service <best-practice/using-service>
 
 
 .. toctree::
