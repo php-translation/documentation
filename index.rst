@@ -78,19 +78,19 @@ for automatic translation, web UI, third party services and more.
    :caption: Introduction
    :maxdepth: 2
 
-   Introduction <introduction>
+   Adding extractors <introduction/adding-extractor>
 
 .. toctree::
    :hidden:
    :caption: Components
 
-   symfony-bundle/index.rst
+   Symfony bundle <symfony-bundle/index>
 
 .. toctree::
    :hidden:
    :caption: Best practice
 
-   best-practice
+   best-practice/index.rst
 
 .. toctree::
    :hidden:

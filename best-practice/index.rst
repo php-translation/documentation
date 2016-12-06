@@ -1,4 +1,8 @@
 Best practices
 ==============
 
-TODO
+TODO intro
+
+.. toctree::
+
+   using-service
