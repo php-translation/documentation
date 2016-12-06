@@ -275,7 +275,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'php-transtion', u'PHP Translation Documentation',
+    (master_doc, 'php-translation', u'PHP Translation Documentation',
      [author], 1)
 ]
 
