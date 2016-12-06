@@ -79,6 +79,7 @@ for automatic translation, web UI, third party services and more.
    :caption: Guides
 
    Adding extractors <guides/adding-extractor>
+   Configure HTTPlug <guides/configure-httplug>
 
 .. toctree::
    :hidden:
