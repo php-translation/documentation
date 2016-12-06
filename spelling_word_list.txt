@@ -1,1 +1,9 @@
+Backtrace
+Google
+hotfix
+rebase
+Semver
+sexualized
+sublicense
 Symfony
+wiki

@@ -1,7 +1,7 @@
 PHP Translation
 ===============
 
-The goal of this organization is to provide a toolset for doing translations in
+The goal of this organization is to provide a tool set for doing translations in
 a PHP project. The secondary goal is to provide a roadmap or case studies how one
 could use those tools.
 
@@ -65,7 +65,7 @@ Symfony Bundle
    :target: https://packagist.org/packages/php-translation/symfony-bundle
    :alt: Total Downloads
 
-The symfony bundle integrates all these fancy features with Symfony. We have support
+The Symfony bundle integrates all these fancy features with Symfony. We have support
 for automatic translation, web UI, third party services and more.
 
 .. toctree::
@@ -88,9 +88,9 @@ for automatic translation, web UI, third party services and more.
 
 .. toctree::
    :hidden:
-   :caption: Best practise
+   :caption: Best practice
 
-   best-practise
+   best-practice
 
 .. toctree::
    :hidden:
