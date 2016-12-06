@@ -1,6 +1,8 @@
-# Symfony Translation Bundle
+Symfony Translation Bundle
+==========================
 
-## Installation
+Installation
+------------
 
 .. code-block:: bash
 
@@ -12,7 +14,8 @@
     new Translation\Bundle\TranslationBundle(),
 
 
-## WebUI
+WebUI
+-----
 
 .. code-block:: yaml
 
