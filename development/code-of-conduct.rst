@@ -1,4 +1,5 @@
-# Contributor Code of Conduct
+Contributor Code of Conduct
+===========================
 
 As contributors and maintainers of this project, and in the interest of
 fostering an open and welcoming community, we pledge to respect all people who
@@ -42,7 +43,7 @@ obligated to maintain confidentiality with regard to the reporter of an
 incident.
 
 
-This Code of Conduct is adapted from the [Contributor Covenant],
+This Code of Conduct is adapted from the `Contributor Covenant`_,
 version 1.3.0, available at http://contributor-covenant.org/version/1/3/0/
 
-[Contributor Covenant]: http://contributor-covenant.org
+.. _Contributor Covenant: http://contributor-covenant.org
