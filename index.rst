@@ -2,7 +2,7 @@ PHP Translation
 ===============
 
 The goal of this organization is to provide a tool set for doing translations in
-a PHP project. The secondary goal is to provide a roadmap or case studies how one
+a PHP project. The secondary goal is to provide guides or case studies how one
 could use those tools.
 
 Organization overview

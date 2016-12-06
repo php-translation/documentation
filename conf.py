@@ -19,6 +19,7 @@ from sphinx.highlighting import lexers
 from pygments.lexers.web import PhpLexer
 
 lexers['php'] = PhpLexer(startinline=True, linenos=1)
+lexers['php-annotations'] = PhpLexer(startinline=True)
 
 primary_domain = 'php'
 highlight_language = 'php'
@@ -62,9 +63,9 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'PHP-HTTP'
-copyright = u'2015-2016, The PHP-HTTP Team'
-author = u'The PHP-HTTP Team'
+project = u'PHP Translation'
+copyright = u'The PHP Translation Team'
+author = u'Tobias Nyholm'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -222,7 +223,7 @@ def setup(app):
 #html_search_scorer = 'scorer.js'
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'PHP-HTTPdoc'
+htmlhelp_basename = 'PHP-Translation'
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -244,8 +245,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  (master_doc, 'PHP-HTTP.tex', u'PHP-HTTP Documentation',
-   u'The PHP-HTTP Team', 'manual'),
+  (master_doc, 'PHP Translation.tex', u'PHP Translation Documentation',
+   u'The PHP Translation Team', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -274,7 +275,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'php-http', u'PHP-HTTP Documentation',
+    (master_doc, 'php-transtion', u'PHP Translation Documentation',
      [author], 1)
 ]
 
@@ -288,8 +289,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  (master_doc, 'PHP-HTTP', u'PHP-HTTP Documentation',
-   author, 'PHP-HTTP', 'One line description of project.',
+  (master_doc, 'PHP Translation', u'PHP Translation Documentation',
+   author, 'PHP Translation', 'One line description of project.',
    'Miscellaneous'),
 ]
 
