@@ -4,12 +4,12 @@ Adding extractors
 The extractor library is very SOLID which means that you easily can add extractors
 without changing existing code. There are some concepts to be aware of:
 
-The `Extrator` object has a collection of **FileExtractor** that are executed
-on files with a file type they support. The `PHPFileExtractor` and `TwigFileExtractor`
-are using the [visitor pattern](https://en.wikipedia.org/wiki/Visitor_pattern).
-They have a collection of `Translation\Extractor\Visitor` that will be executed
+The ``Extrator`` object has a collection of **FileExtractor** that are executed
+on files with a file type they support. The ``PHPFileExtractor`` and ``TwigFileExtractor``
+are using the `visitor pattern`_.
+They have a collection of ``Translation\Extractor\Visitor`` that will be executed
 for each file the FileExtractor is running for. To add a custom extractor for a
-custom PHP class you may only add a visitor for the `PHPFileExtractor`.
+custom PHP class you may only add a visitor for the ``PHPFileExtractor``.
 
 Example
 -------
@@ -60,7 +60,7 @@ another FileExtractor.
 
 .. note::
 
-    Refer to the documentation of [nikic/PHP-Parser](https://github.com/nikic/PHP-Parser)
+    Refer to the documentation of `nikic/PHP-Parser`_
     for more examples of note types.
 
 Tests
@@ -70,7 +70,7 @@ This will work, but we need tests. Each extractor must be properly tested. We us
 functional tests for each visitor. Add test resources with scripts that you will
 use to test your visitor. Reusing test resources should be avoided.
 
-By using the `BasePHPVisitorTest` class you can easily write test will little or
+By using the ``BasePHPVisitorTest`` class you can easily write test will little or
 no overhead.
 
 .. code-block:: php
@@ -86,3 +86,6 @@ no overhead.
             $this->assertEquals('foobar', $source->getMessage());
         }
     }
+
+.. _nikic/PHP-Parser: https://github.com/nikic/PHP-Parser
+.. _visitor pattern: https://en.wikipedia.org/wiki/Visitor_pattern
