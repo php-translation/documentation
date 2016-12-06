@@ -67,3 +67,33 @@ Symfony Bundle
 
 The symfony bundle integrates all these fancy features with Symfony. We have support
 for automatic translation, web UI, third party services and more.
+
+.. toctree::
+    :hidden:
+
+    PHP Translation <self>
+
+.. toctree::
+   :hidden:
+   :caption: Introduction
+   :maxdepth: 2
+
+   Introduction <introduction>
+
+.. toctree::
+   :hidden:
+   :caption: Components
+
+   symfony-bundle
+
+.. toctree::
+   :hidden:
+   :caption: Best practise
+
+   best-practise
+
+.. toctree::
+   :hidden:
+   :caption: ---------
+
+   development/index.rst
