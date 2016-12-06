@@ -64,7 +64,7 @@ another FileExtractor.
     for more examples of note types.
 
 Tests
-`````
+-----
 
 This will work, but we need tests. Each extractor must be properly tested. We use
 functional tests for each visitor. Add test resources with scripts that you will
