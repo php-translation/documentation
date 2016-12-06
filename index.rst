@@ -72,12 +72,13 @@ for automatic translation, web UI, third party services and more.
     :hidden:
 
     PHP Translation <self>
+    Introduction <introduction>
 
 .. toctree::
    :hidden:
-   :caption: Introduction
+   :caption: Guides
 
-   Adding extractors <introduction/adding-extractor>
+   Adding extractors <guides/adding-extractor>
 
 .. toctree::
    :hidden:
