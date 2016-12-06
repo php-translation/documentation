@@ -44,7 +44,12 @@ another FileExtractor.
                 if ('translateMe' === $name) {
                     $label = $this->getStringArgument($node, 1);
 
-                    $source = new SourceLocation($label, $this->getAbsoluteFilePath(), $node->getAttribute('startLine'), ['domain' => 'messages']);
+                    $source = new SourceLocation(
+                        $label,
+                        $this->getAbsoluteFilePath(),
+                        $node->getAttribute('startLine'),
+                        ['domain' => 'messages']
+                    );
                     $this->collection->addLocation($source);
                 }
             }
@@ -53,7 +58,7 @@ another FileExtractor.
         // ...
     }
 
-.. code-block:: note
+.. note::
 
     Refer to the documentation of [nikic/PHP-Parser](https://github.com/nikic/PHP-Parser)
     for more examples of note types.

@@ -76,7 +76,7 @@ for automatic translation, web UI, third party services and more.
 .. toctree::
    :hidden:
    :caption: Introduction
-   :maxdepth: 1
+   :maxdepth: 0
 
    Adding extractors <introduction/adding-extractor>
 
@@ -89,7 +89,7 @@ for automatic translation, web UI, third party services and more.
 .. toctree::
    :hidden:
    :caption: Best practice
-   :maxdepth: 1
+   :maxdepth: 0
 
    Intro <best-practice/index.rst>
    Using service <best-practice/using-service.rst>
