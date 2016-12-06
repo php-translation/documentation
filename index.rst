@@ -84,7 +84,7 @@ for automatic translation, web UI, third party services and more.
    :hidden:
    :caption: Components
 
-   symfony-bundle
+   symfony-bundle/index.rst
 
 .. toctree::
    :hidden:
