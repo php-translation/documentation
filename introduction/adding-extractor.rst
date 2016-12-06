@@ -6,7 +6,7 @@ without changing existing code. There are some concepts to be aware of:
 
 The ``Extrator`` object has a collection of **FileExtractor** that are executed
 on files with a file type they support. The ``PHPFileExtractor`` and ``TwigFileExtractor``
-are using the [visitor pattern](https://en.wikipedia.org/wiki/Visitor_pattern).
+are using the `visitor pattern`_.
 They have a collection of ``Translation\Extractor\Visitor`` that will be executed
 for each file the FileExtractor is running for. To add a custom extractor for a
 custom PHP class you may only add a visitor for the ``PHPFileExtractor``.
@@ -88,3 +88,4 @@ no overhead.
     }
 
 .. _nikic/PHP-Parser: https://github.com/nikic/PHP-Parser
+.. _visitor pattern: https://en.wikipedia.org/wiki/Visitor_pattern
