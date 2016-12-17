@@ -79,16 +79,27 @@ They all live in the php-translation/platform-adapter repository.
 
 .. toctree::
    :hidden:
-   :caption: Components
-
-   Symfony bundle <components/symfony-bundle>
-
-.. toctree::
-   :hidden:
    :caption: Best practice
 
    Intro <best-practice/index>
    Using service <best-practice/using-service>
+
+.. toctree::
+   :hidden:
+   :caption: Symfony
+
+   A bundle to rule them all <symfony/index>
+   Configuration reference <symfony/configuration-reference>
+
+.. toctree::
+   :hidden:
+   :caption: Components
+
+   Common <components/common>
+   Extractor <components/extractor>
+   Translator <components/translator>
+   Platform adapters <components/platform-adapters>
+
 
 
 .. toctree::

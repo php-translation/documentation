@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# PHP-HTTP documentation build configuration file, created by
+# PHP-Translation documentation build configuration file, created by
 # sphinx-quickstart on Sat Jan  2 15:26:57 2016.
 #
 # This file is execfile()d with the current directory set to its
