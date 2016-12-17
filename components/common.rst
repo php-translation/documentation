@@ -19,7 +19,7 @@ Storage
 -------
 
 The ``Storage`` interface is an abstraction for places where you can store translations.
-There are many examples like on filesystem, in database or in any third party translation
+There are many examples like on file system, in database or in any third party translation
 service. A ``Storage`` is very simple. It has methods for getting, updating and
 deleting a translation.
 

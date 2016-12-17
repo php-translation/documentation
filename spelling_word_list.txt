@@ -2,9 +2,12 @@ Backtrace
 Bing
 Google
 hotfix
+Nikic
 organisation
 Profiler
+php
 rebase
+runtime
 Semver
 sexualized
 sublicense

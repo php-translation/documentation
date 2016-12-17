@@ -72,7 +72,7 @@ visitor is searching for a pattern like ``$this->addFlash()``. If that string is
 found it will add a new ``SourceLocation`` to the ``SourceCollection`` model.
 
 When all visitors and ``FileExtractor`` has been executed an instance of the ``SourceCollection``
-will be retured.
+will be returned.
 
 .. note::
 
