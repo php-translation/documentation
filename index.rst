@@ -21,18 +21,6 @@ This package include extractors that look at your source code and extract transl
 keys from it. We support extractor from PHP files, Twig files and Blade template
 files.
 
-Platform adapters
-`````````````````
-.. image:: https://poser.pugx.org/php-translation/platform-adapter/v/stable
-   :target: https://packagist.org/packages/php-translation/platform-adapter
-
-.. image:: https://poser.pugx.org/php-translation/platform-adapter/downloads
-   :target: https://packagist.org/packages/php-translation/platform-adapter
-   :alt: Total Downloads
-
-The platform adapters integrate third party platforms like Localize.biz to a common
-interface.
-
 Common
 ``````
 .. image:: https://poser.pugx.org/php-translation/common/v/stable
@@ -67,6 +55,14 @@ Symfony Bundle
 
 The Symfony bundle integrates all these fancy features with Symfony. We have support
 for automatic translation, web UI, third party services and more.
+
+
+Platform adapters
+`````````````````
+
+This organisation has plenty of platform adapters to support third party services.
+They all live in the php-translation/platform-adapter repository.
+
 
 .. toctree::
     :hidden:
