@@ -9,6 +9,6 @@ When you are using the auto translation features you may want to cache the respo
 from your paid third party translator services. To configure HTTPlug to be aggressive
 for those request you need the CachePlugin and the UrlMathcher.
 
-TODO Show how to configure the CachePlugin to cache google translate calls.
+TODO Show how to configure the CachePlugin to cache Google translate calls.
 
 .. _introduction: http://docs.php-http.org/en/latest/httplug/users.html
