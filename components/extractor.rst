@@ -76,8 +76,8 @@ will be returned.
 
 .. note::
 
-    If you want to add functionality to the extractor you are most likely to add a new
-    visitor. See :doc:`../guides/adding-extractor` for more information.
+    If you want to add functionality to the extractor you are most likely to add
+    a new visitor. See :doc:`../guides/adding-extractor` for more information.
 
 
 
