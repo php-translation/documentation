@@ -75,6 +75,7 @@ They all live in the php-translation/platform-adapter repository.
    :caption: Guides
 
    Adding extractors <guides/adding-extractor>
+   Configure Platform adapter <guides/using-loco-adapter>
    Configure HTTPlug <guides/configure-httplug>
 
 .. toctree::
