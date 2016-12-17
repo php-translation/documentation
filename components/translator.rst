@@ -35,6 +35,5 @@ the chain.
 
 .. note::
 
-    Protip: Since most translator services are paid services you probably want to
-    add agressive caching on the responses. See :doc:`../guides/configure-httplug`
-    for more information.
+    Since most translator services are paid services you probably want to add aggressive
+    caching on the responses. See :doc:`../guides/configure-httplug` for more information.
