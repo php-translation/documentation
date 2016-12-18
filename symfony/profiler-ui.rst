@@ -1,21 +1,28 @@
 Symfony Profiler UI
 ===================
 
+The Symfony profiler page for translation is great. You see all translations that
+were used in that request. But what if you could edit those translations as well?
+This is exactly what this feature does. It is way easier to edit and add new translations
+since the *missing translations* are highlighted.
 
 
-Symfony Profiler Integration
-----------------------------
+Configuration
+-------------
 
 .. code-block:: yaml
 
-    // config.yml
+    # config/config.yml
     translation:
-      locales: ["sv", "en"]
+      # ..
       symfony_profiler:
         enabled: true
 
 .. code-block:: yaml
 
-    // routing_dev.yml
+    # config/routing_dev.yml
     _translation_profiler:
         resource: '@TranslationBundle/Resources/config/routing_symfony_profiler.yml'
+
+See the updated Translation page in the Symfony profiler. There are some new buttons
+on the right hand side.

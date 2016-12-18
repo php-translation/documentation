@@ -10,7 +10,7 @@ Features
 --------
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 0
 
    extracting-translations
    webui

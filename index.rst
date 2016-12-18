@@ -113,3 +113,4 @@ They all live in the php-translation/platform-adapter repository.
    :caption: ---------
 
    development/index.rst
+
