@@ -53,7 +53,7 @@ The class that we interact with after when we want to extract translations is th
 ``Extractor`` class. It supports ``Extractor::extractFromDirectory(string)`` and
 the more flexible ``Extractor::extract(Finder)``. The Extractor looks at all files
 in the directory and checks the type/extension. The extractor then executes all
-``FileExtractor``s for this file type.
+``FileExtractor`` for this file type.
 
 There is a few ``FileExtractor`` that comes with this component. They are ``PHPFileExtractor``,
 ``TwigFileExtractor`` and ``BladeExtractor``. As you may guess they extract translations

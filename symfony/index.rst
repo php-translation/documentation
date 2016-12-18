@@ -2,9 +2,9 @@ Symfony Translation Bundle
 ==========================
 
 The Symfony bundle is filled with cool features that will ease your translation
-workflow. You probanly do not want **all features** enabled, just choose the ones
+workflow. You probably do not want **all features** enabled, just choose the ones
 you like. Some features requires you to install extra packages, but that is explained
-ine the documentation for each feature.
+in the documentation for each feature.
 
 Features
 --------
