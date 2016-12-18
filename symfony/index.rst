@@ -1,29 +1,62 @@
 Symfony Translation Bundle
 ==========================
 
+The Symfony bundle is filled with cool features that will ease your translation
+workflow. You probanly do not want **all features** enabled, just choose the ones
+you like. Some features requires you to install extra packages, but that is explained
+ine the documentation for each feature.
+
+Features
+--------
+
+.. toctree::
+   :maxdepth: 1
+
+   extracting-translations
+   webui
+   profiler-ui
+   edit-in-place
+   auto-translate
+
+
 Installation
 ------------
+
+Install the bundle with Composer
 
 .. code-block:: bash
 
     composer require php-translation/symfony-bundle
 
 
+Then enable the bundle in AppKernel.php
+
 .. code-block:: php
 
-    new Translation\Bundle\TranslationBundle(),
+    class AppKernel extends Kernel
+    {
+      public function registerBundles()
+      {
+        $bundles = array(
+            // ...
+            new Translation\Bundle\TranslationBundle(),
+        }
+      }
+    }
 
+Configuration
+-------------
 
-WebUI
------
+The bundle has a very flexible configuration. It allows you do have different setups
+for different parts of your application. This might be overkill for most applications
+but it is possible by specifying more keys under ``translation.configs``.
+
+Below is an example of configuration that is great to start with.
 
 .. code-block:: yaml
 
-    // config.yml
     translation:
-      locales: ["sv", "en"]
-      webui:
-        enabled: true
+      locales: ["en", "fr", "sv"]
       configs:
         app:
           dirs: ["%kernel.root_dir%/Resources/views", "%kernel.root_dir%/../src"]
@@ -31,29 +64,37 @@ WebUI
           excluded_names: ["*TestCase.php", "*Test.php"]
           excluded_dirs: [cache, data, logs]
 
+With the configuration above you may extract all translation key from your source
+code by running
+
+.. code-block:: bash
+
+    php bin/console translation:extract app
+
+.. note::
+
+    See page :doc:`extracting-translations` for more information.
+
+
+Storages
+--------
+
+By default we store all translations on the file system. This is highly configurable.
+Many developers keep a local copy of all translations but do also use a remote storage,
+like a translations platform. You may also create your own storage. A storage service
+must implement `Translation\Common\Storage`.
 
 .. code-block:: yaml
 
-    // routing_dev.yml
-    _translation_webui:
-        resource: "@TranslationBundle/Resources/config/routing_webui.yml"
-        prefix:  /admin
-
-Go to http://localhost.dev/app_dev.php/admin/_trans
-
-Symfony Profiler Integration
-----------------------------
-
-.. code-block:: yaml
-
-    // config.yml
     translation:
-      locales: ["sv", "en"]
-      symfony_profiler:
-        enabled: true
+      locales: ["en", "fr", "sv"]
+      configs:
+        app:
+          dirs: ["%kernel.root_dir%/Resources/views", "%kernel.root_dir%/../src"]
+          output_dir: "%kernel.root_dir%/Resources/translations"
+          remote_storage: ["php_translation.adapter.loco"]
+          local_storage: ["app.custom_local_storage"]
 
-.. code-block:: yaml
-
-    // routing_dev.yml
-    _translation_profiler:
-        resource: '@TranslationBundle/Resources/config/routing_symfony_profiler.yml'
+The PHP Translation organisation provides some adapters to commonly used translation
+platforms. See our all :doc:`platform adapters <../components/platform-adapters>`
+or see an example on how to :doc:`install an adapter <../guides/using-loco-adapter>`.

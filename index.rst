@@ -91,6 +91,11 @@ They all live in the php-translation/platform-adapter repository.
 
    A bundle to rule them all <symfony/index>
    Configuration reference <symfony/configuration-reference>
+   Extracting translations <symfony/extracting-translations>
+   WebUI <symfony/webui>
+   Symfony Profiler UI <symfony/profiler-ui>
+   Edit in place <symfony/edit-in-place>
+   Auto translate <symfony/auto-translate>
 
 .. toctree::
    :hidden:
