@@ -9,15 +9,11 @@ in the documentation for each feature.
 Features
 --------
 
-.. toctree::
-   :maxdepth: 0
-
-   extracting-translations
-   webui
-   profiler-ui
-   edit-in-place
-   auto-translate
-
+- :doc:`extracting-translations`
+- :doc:`webui`
+- :doc:`profiler-ui`
+- :doc:`edit-in-place`
+- :doc:`auto-translate`
 
 Installation
 ------------
