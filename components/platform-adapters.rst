@@ -31,23 +31,18 @@ the service.
 
 
 .. csv-table::
-   :header: "Platform", "Package", "Badges"
-
+   :header: "Platform", "Repository", "Badges"
 
    "`Loco/Localise.biz <https://localise.biz/>`_", "`php-translation/loco-adapter <https://github.com/php-translation/loco-adapter/>`_", |vLoco| |dLoco|
-
-
 
 .. _`platform adapter repository`: https://github.com/php-translation/platform-adapter
 .. _`www.subtreesplit.com`: https://www.subtreesplit.com/
 
-
 .. Badges:
 
-.. |vLoco| image:: https://poser.pugx.org/php-translation/common/v/stable
-   :target: https://packagist.org/packages/php-translation/common
-
-.. |dLoco| image:: https://poser.pugx.org/php-translation/common/downloads
-   :target: https://packagist.org/packages/php-translation/common
+.. |vLoco| image:: https://poser.pugx.org/php-translation/loco-adapter/v/stable
+   :target: https://packagist.org/packages/php-translation/loco-adapter
+.. |dLoco| image:: https://poser.pugx.org/php-translation/loco-adapter/downloads
+   :target: https://packagist.org/packages/php-translation/loco-adapter
 
 
