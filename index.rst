@@ -21,18 +21,6 @@ This package include extractors that look at your source code and extract transl
 keys from it. We support extractor from PHP files, Twig files and Blade template
 files.
 
-Platform adapters
-`````````````````
-.. image:: https://poser.pugx.org/php-translation/platform-adapter/v/stable
-   :target: https://packagist.org/packages/php-translation/platform-adapter
-
-.. image:: https://poser.pugx.org/php-translation/platform-adapter/downloads
-   :target: https://packagist.org/packages/php-translation/platform-adapter
-   :alt: Total Downloads
-
-The platform adapters integrate third party platforms like Localize.biz to a common
-interface.
-
 Common
 ``````
 .. image:: https://poser.pugx.org/php-translation/common/v/stable
@@ -68,6 +56,14 @@ Symfony Bundle
 The Symfony bundle integrates all these fancy features with Symfony. We have support
 for automatic translation, web UI, third party services and more.
 
+
+Platform adapters
+`````````````````
+
+This organisation has plenty of platform adapters to support third party services.
+They all live in the php-translation/platform-adapter repository.
+
+
 .. toctree::
     :hidden:
 
@@ -79,13 +75,8 @@ for automatic translation, web UI, third party services and more.
    :caption: Guides
 
    Adding extractors <guides/adding-extractor>
+   Configure Platform adapter <guides/using-loco-adapter>
    Configure HTTPlug <guides/configure-httplug>
-
-.. toctree::
-   :hidden:
-   :caption: Components
-
-   Symfony bundle <components/symfony-bundle>
 
 .. toctree::
    :hidden:
@@ -94,9 +85,32 @@ for automatic translation, web UI, third party services and more.
    Intro <best-practice/index>
    Using service <best-practice/using-service>
 
+.. toctree::
+   :hidden:
+   :caption: Symfony
+
+   A bundle to rule them all <symfony/index>
+   Configuration reference <symfony/configuration-reference>
+   Extracting translations <symfony/extracting-translations>
+   WebUI <symfony/webui>
+   Symfony Profiler UI <symfony/profiler-ui>
+   Edit in place <symfony/edit-in-place>
+   Auto translate <symfony/auto-translate>
+
+.. toctree::
+   :hidden:
+   :caption: Components
+
+   Common <components/common>
+   Extractor <components/extractor>
+   Translator <components/translator>
+   Platform adapters <components/platform-adapters>
+
+
 
 .. toctree::
    :hidden:
    :caption: ---------
 
    development/index.rst
+

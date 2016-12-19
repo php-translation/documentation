@@ -2,14 +2,18 @@ Adding extractors
 =================
 
 The extractor library is very SOLID which means that you easily can add extractors
-without changing existing code. There are some concepts to be aware of:
+without changing existing code. There are some concepts to be aware of
 
-The ``Extrator`` object has a collection of **FileExtractor** that are executed
+The ``Extractor`` object has a collection of ``FileExtractor`` that are executed
 on files with a file type they support. The ``PHPFileExtractor`` and ``TwigFileExtractor``
-are using the `visitor pattern`_.
-They have a collection of ``Translation\Extractor\Visitor`` that will be executed
-for each file the FileExtractor is running for. To add a custom extractor for a
-custom PHP class you may only add a visitor for the ``PHPFileExtractor``.
+are using the `visitor pattern`_. They have a collection of ``Translation\Extractor\Visitor``
+that will be executed for each file the FileExtractor is running for. To add a
+custom extractor for a custom PHP class you may only add a visitor for the ``PHPFileExtractor``.
+
+.. note::
+
+    Read more about the architecture at the component description of
+    :doc:`../components/extractor`.
 
 Example
 -------

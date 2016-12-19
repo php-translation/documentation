@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# PHP-HTTP documentation build configuration file, created by
+# PHP-Translation documentation build configuration file, created by
 # sphinx-quickstart on Sat Jan  2 15:26:57 2016.
 #
 # This file is execfile()d with the current directory set to its
@@ -21,7 +21,7 @@ from pygments.lexers.web import PhpLexer
 lexers['php'] = PhpLexer(startinline=True, linenos=1)
 lexers['php-annotations'] = PhpLexer(startinline=True)
 
-primary_domain = 'php'
+# primary_domain = 'php'
 highlight_language = 'php'
 
 # If extensions (or modules to document with autodoc) are in another directory,
