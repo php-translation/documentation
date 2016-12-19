@@ -82,7 +82,7 @@ They all live in the php-translation/platform-adapter repository.
    :hidden:
    :caption: Best practice
 
-   Intro <best-practice/index>
+   Introduction <best-practice/index>
    Using service <best-practice/using-service>
 
 .. toctree::
