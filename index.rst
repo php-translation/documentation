@@ -89,7 +89,7 @@ They all live in the php-translation/platform-adapter repository.
    :hidden:
    :caption: Symfony
 
-   A bundle to rule them all <symfony/index>
+   Symfony Translation Bundle <symfony/index>
    Configuration reference <symfony/configuration-reference>
    Extracting translations <symfony/extracting-translations>
    WebUI <symfony/webui>
