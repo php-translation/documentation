@@ -55,7 +55,11 @@ and a PSR-6 cache pool.
                 plugins: ['httplug.plugin.cache', 'httplug.plugin.logger']
 
     translation:
+        # ...
         http_client: 'httplug.client.translator_client'
+        fallback_translation:
+            service: 'google'
+            api_key: 'foobar'
 
 .. note::
 
