@@ -6,7 +6,7 @@ to decouple from the HTTP client. If you are new to HTTPlug you may want to read
 their introduction_. The very easiest way of using HTTPlug is to install the HTTPlugBundle_.
 
 The standard configuration (no configuration) works for a common setup but you may
-want to add some config. If you want to add logging for **all** the requests and
+want to add some configuration. If you want to add logging for **all** the requests and
 responses for a client named ``acme`` you may do:
 
 .. code-block:: yaml
@@ -63,7 +63,7 @@ and a PSR-6 cache pool.
 
 .. note::
 
-    See `PHP-cache.com <http://www.php-cache.com/>`_ for informatin about caching.
+    See `PHP-cache.com <http://www.php-cache.com/>`_ for information about caching.
 
 .. _introduction: http://docs.php-http.org/en/latest/httplug/users.html
 .. _HTTPlugBundle: https://github.com/php-http/HttplugBundle
