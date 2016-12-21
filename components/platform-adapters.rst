@@ -34,6 +34,7 @@ the service.
    :header: "Platform", "Repository", "Badges"
 
    "`Loco/Localise.biz <https://localise.biz/>`_", "`php-translation/loco-adapter <https://github.com/php-translation/loco-adapter/>`_", |vLoco| |dLoco|
+   "`Transifex <https://www.transifex.com/>`_", "`php-translation/transifex-adapter <https://github.com/php-translation/transifex-adapter/>`_", |vTransifex| |dTransifex|
 
 .. _`platform adapter repository`: https://github.com/php-translation/platform-adapter
 .. _`www.subtreesplit.com`: https://www.subtreesplit.com/
@@ -44,5 +45,10 @@ the service.
    :target: https://packagist.org/packages/php-translation/loco-adapter
 .. |dLoco| image:: https://poser.pugx.org/php-translation/loco-adapter/downloads
    :target: https://packagist.org/packages/php-translation/loco-adapter
+
+.. |vTransifex| image:: https://poser.pugx.org/php-translation/transifex-adapter/v/stable
+   :target: https://packagist.org/packages/php-translation/transifex-adapter
+.. |dTransifex| image:: https://poser.pugx.org/php-translation/transifex-adapter/downloads
+   :target: https://packagist.org/packages/php-translation/transifex-adapter
 
 
