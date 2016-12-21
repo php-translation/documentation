@@ -63,7 +63,7 @@ and a PSR-6 cache pool.
 
 .. note::
 
-    See `PHP-cache.com <http://www.php-cache.com/>`_ for informatin about caching.
+    See `PHP-cache.com <http://www.php-cache.com/>`_ for information about caching.
 
 .. _introduction: http://docs.php-http.org/en/latest/httplug/users.html
 .. _HTTPlugBundle: https://github.com/php-http/HttplugBundle
