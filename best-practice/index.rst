@@ -23,7 +23,7 @@ The Symfony best practice document states that:
 
 That is a good start that we like to build on to. All reusable translations keys
 should describe their purpose. But non-reusable translation keys **should** describe
-their location. Example `pricing_page.partner.paragraph0` or `flash.user_signup.email_in_use`.
+their location. Example ``pricing_page.partner.paragraph0`` or ``flash.user_signup.email_in_use``.
 
 The translation keys are also used to give translators *some* context about where
 they are used. The following table is a good rule of thumb.
