@@ -4,6 +4,7 @@ Google
 hotfix
 Nikic
 organisation
+practises
 profiler
 php
 rebase
@@ -13,5 +14,6 @@ sexualized
 storages
 sublicense
 Symfony
+username
 wiki
 workflow
