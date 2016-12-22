@@ -14,3 +14,19 @@
 .wy-menu-vertical p.caption .caption-text {
     font-size: 120%;
 }
+
+/* A large white area, no sidebar */
+@media (min-width: 600px) and (max-width: 768px) {
+    .wy-table-responsive table td,
+    .wy-table-responsive table th {
+        white-space: normal !important;
+    }
+}
+
+/* A lartge white area, with sidebar */
+@media (min-width: 900px) {
+    .wy-table-responsive table td,
+    .wy-table-responsive table th {
+        white-space: normal !important;
+    }
+}
