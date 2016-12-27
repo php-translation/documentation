@@ -97,6 +97,7 @@ They all live in the php-translation/platform-adapter repository.
    Symfony Profiler UI <symfony/profiler-ui>
    Edit in place <symfony/edit-in-place>
    Auto translate <symfony/auto-translate>
+   Auto add missing translations <symfony/auto-add-missing>
 
 .. toctree::
    :hidden:
