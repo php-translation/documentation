@@ -22,12 +22,9 @@ Configuration
       # ..
       edit_in_place:
         enabled: true
-        # config_name: default
-        # activator: php_translation.edit_in_place.activator
+        config_name: default # The configuration to use
+        activator: php_translation.edit_in_place.activator # The activator service id
       # ..
-
-- ``config_name`` is the configuration to use;
-- ``activator`` is the activator service name, see below.
 
 .. code-block:: yaml
 
@@ -36,10 +33,14 @@ Configuration
       resource: '@TranslationBundle/Resources/config/routing_edit_in_place.yml'
       prefix:  /admin
 
-- this routing file expose the controller saving the modifications, it **must**:
+.. note::
 
-  - be in a protected area of your application;
-  - be in the production routing file.
+    When you include the ``routing_edit_in_place.yml`` to expose the controller
+    that saves the modifications you should be aware of the following:
+
+    - The routes **must** be in a protected area of your application
+    - The routes **must** be in the production routing file.
+
 
 Usage
 -----
