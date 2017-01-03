@@ -39,8 +39,12 @@ Configuration
     that saves the modifications you should be aware of the following:
 
     - The routes **must** be in a protected area of your application
-    - The routes **must** be in the production routing file.
+    - The routes **must** be in the production routing file if you want allow real users to use the feature.
 
+
+.. note::
+
+    Make sure the Bundle assets are installed via ``bin/console assets:install``
 
 Usage
 -----
