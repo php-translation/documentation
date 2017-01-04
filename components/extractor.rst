@@ -83,7 +83,7 @@ Special extractors
 ------------------
 
 We have common extractors for Symfony, Twig and Blade. They all are doing static
-analyses on the source files to find translation strings. But in some situations
+analysis on the source files to find translation strings. But in some situations
 you need to specify translation dynamically. You may achieve this by implementing
 ``TranslationSourceLocationContainer``.
 
