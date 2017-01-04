@@ -4,6 +4,10 @@ addons:
     apt_packages:
         - enchant
 
+branches:
+  except:
+    - /^patch-.*$/
+
 install:
     - pip install --user -r requirements.txt
 
