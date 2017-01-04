@@ -79,6 +79,34 @@ will be returned.
     If you want to add functionality to the extractor you are most likely to add
     a new visitor. See :doc:`../guides/adding-extractor` for more information.
 
+Special extractors
+------------------
+
+We have common extractors for Symfony, Twig and Blade. They all are doing static
+analysis on the source files to find translation strings. But in some situations
+you need to specify translation dynamically. You may achieve this by implementing
+``TranslationSourceLocationContainer``.
+
+.. code-block:: php
+
+    use Translation\Extractor\Model\SourceLocation;
+    use Translation\Extractor\TranslationSourceLocationContainer;
+    use Symfony\Component\Form\AbstractType;
+
+    class MyCustomFromType extends AbstractType implements TranslationSourceLocationContainer
+    {
+        // ...
+        public static function getTranslationSourceLocations()
+        {
+            $options = // Get options
+            $data = [];
+            foreach ($options as $option) {
+                $data[] = SourceLocation::createHere('option.'.$option);
+            }
+
+            return $data;
+        }
+    }
 
 
 .. _`Visitor pattern`: https://en.wikipedia.org/wiki/Visitor_pattern
