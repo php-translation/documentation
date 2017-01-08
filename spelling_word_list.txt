@@ -1,7 +1,11 @@
 backtrace
 Bing
+de
+Flysystem
+filesystem
 Google
 hotfix
+Jonge
 Nikic
 organisation
 practises
@@ -14,6 +18,9 @@ sexualized
 storages
 sublicense
 Symfony
+Transifex
 username
 wiki
+Withlock
 workflow
+Xliff
