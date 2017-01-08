@@ -1,9 +1,27 @@
 PHP Translation
 ===============
 
-The goal of this organization is to provide a tool set for doing translations in
-a PHP project. The secondary goal is to provide guides or case studies how one
-could use those tools.
+**How do you manage your multilanguage Symfony application?**
+
+This is something you know many companies do but nobody talks about how they do it.
+It might be because nobody is really proud of their solution. That is something we
+like to change. We want to share ideas, knowledge and tools with the PHP community.
+
+This organization has some large building blocks that you should be aware of. First
+there is the :doc:`Extractor<components/extractor>` that finds translation keys in
+any source file. Second we have the :doc:`Symfony Bundle<symfony/index>` which is
+using the Extractor and puts a lot of great feature that will help your translation
+workflow. There are features like :doc:`automatic translation<symfony/auto-translate>`, a
+:doc:`Web UI<symfony/webui>`, :doc:`Edit-in-place<symfony/edit-in-place>`
+that allows you to edit translations in the right context and there is also support
+for multiple local and remote *storages*.
+
+Getting started
+---------------
+
+If you are using Symfony you should start by looking at the documentation for the
+:doc:`Symfony bundle<symfony/index>`. If you are more hard core you may want to
+start by looking at the :doc:`overview`.
 
 
 .. toctree::
