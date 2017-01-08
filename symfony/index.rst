@@ -92,5 +92,5 @@ must implement `Translation\Common\Storage`.
           local_storage: ["app.custom_local_storage"]
 
 The PHP Translation organisation provides some adapters to commonly used translation
-platforms. See our all :doc:`platform adapters <../components/platform-adapters>`
+storages. See our all :doc:`storage adapters <../overview>`
 or see an example on how to :doc:`install an adapter <../guides/using-loco-adapter>`.

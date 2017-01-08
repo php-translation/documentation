@@ -3,20 +3,20 @@ How to use Loco Adapter
 
 When your application has reached a certain number of languages and you can't translate
 all of them yourself you need a translation platform to ease your work with external
-translators. This article shows how to set up a platform adapter using Loco_. Loco
-is just an example here. All platform adapters have a similar way of being configured.
+translators. This article shows how to set up a storage adapter using Loco_. Loco
+is just an example here. All storage adapters have a similar way of being configured.
 
 Installation
 ------------
 
 Assuming you have already installed the :doc:`Symfony bundle <../symfony/index>`,
-you need to find and install the platform adapter. See our :doc:`list of adapters <../components/platform-adapters>`.
+you need to find and install a storage adapter. See our :doc:`list of storage adapters <../overview>`.
 
 .. code-block:: bash
 
     composer require php-translation/loco-adapter
 
-The platform adapter does also contain a bundle which needs to be installed.
+The storage adapter does also contain a bundle which needs to be installed.
 
 .. code-block:: php
 
@@ -47,7 +47,7 @@ Loco the configuration looks like this:
         navigation:
           api_key: 'bazbar'
 
-When the platform adapter bundle is configured it will register a service with id
+When the storage adapter bundle is configured it will register a service with id
 `php_translation.adapter.loco`. Now wee need to tell the ``TranslationBundle``
 to use this adapter.
 

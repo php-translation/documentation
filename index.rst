@@ -1,82 +1,42 @@
 PHP Translation
 ===============
 
-The goal of this organization is to provide a tool set for doing translations in
-a PHP project. The secondary goal is to provide guides or case studies how one
-could use those tools.
+**How do you manage your multilanguage Symfony application?**
 
-Organization overview
----------------------
+This is something you know many companies do but nobody talks about how they do it.
+It might be because nobody is really proud of their solution. That is something we
+like to change. We want to share ideas, knowledge and tools with the PHP community.
 
-Extractor
-`````````
-.. image:: https://poser.pugx.org/php-translation/extractor/v/stable
-   :target: https://packagist.org/packages/php-translation/extractor
+This organization has some large building blocks that you should be aware of. First
+there is the :doc:`Extractor<components/extractor>` that finds translation keys in
+any source file. Second we have the :doc:`Symfony Bundle<symfony/index>` which is
+using the Extractor and puts a lot of great feature that will help your translation
+workflow. There are features like :doc:`automatic translation<symfony/auto-translate>`, a
+:doc:`Web UI<symfony/webui>`, :doc:`Edit-in-place<symfony/edit-in-place>`
+that allows you to edit translations in the right context and there is also support
+for multiple local and remote *storages*.
 
-.. image:: https://poser.pugx.org/php-translation/extractor/downloads
-   :target: https://packagist.org/packages/php-translation/extractor
-   :alt: Total Downloads
+Getting started
+---------------
 
-This package include extractors that look at your source code and extract translation
-keys from it. We support extractor from PHP files, Twig files and Blade template
-files.
-
-Common
-``````
-.. image:: https://poser.pugx.org/php-translation/common/v/stable
-   :target: https://packagist.org/packages/php-translation/common
-
-.. image:: https://poser.pugx.org/php-translation/common/downloads
-   :target: https://packagist.org/packages/php-translation/common
-   :alt: Total Downloads
-
-Common interfaces and classes used by 2 or more packages.
-
-Translator
-``````````
-.. image:: https://poser.pugx.org/php-translation/translator/v/stable
-   :target: https://packagist.org/packages/php-translation/translator
-
-.. image:: https://poser.pugx.org/php-translation/translator/downloads
-   :target: https://packagist.org/packages/php-translation/translator
-   :alt: Total Downloads
-
-The translator package includes third party translation clients. Use this package
-if you want to translate a string with Google Translate or Bing Translate.
-
-Symfony Bundle
-``````````````
-.. image:: https://poser.pugx.org/php-translation/symfony-bundle/v/stable
-   :target: https://packagist.org/packages/php-translation/symfony-bundle
-
-.. image:: https://poser.pugx.org/php-translation/symfony-bundle/downloads
-   :target: https://packagist.org/packages/php-translation/symfony-bundle
-   :alt: Total Downloads
-
-The Symfony bundle integrates all these fancy features with Symfony. We have support
-for automatic translation, web UI, third party services and more.
-
-
-Platform adapters
-`````````````````
-
-This organisation has plenty of platform adapters to support third party services.
-They all live in the php-translation/platform-adapter repository.
+If you are using Symfony you should start by looking at the documentation for the
+:doc:`Symfony bundle<symfony/index>`. If you are more hard core you may want to
+start by looking at the :doc:`overview`.
 
 
 .. toctree::
     :hidden:
 
     PHP Translation <self>
-    Introduction <introduction>
+    Organization overview <overview>
 
 .. toctree::
    :hidden:
    :caption: Guides
 
-   Adding extractors <guides/adding-extractor>
-   Configure Platform adapter <guides/using-loco-adapter>
+   Configure storage adapter <guides/using-loco-adapter>
    Configure HTTPlug <guides/configure-httplug>
+   Adding extractors <guides/adding-extractor>
 
 .. toctree::
    :hidden:
@@ -106,8 +66,6 @@ They all live in the php-translation/platform-adapter repository.
    Common <components/common>
    Extractor <components/extractor>
    Translator <components/translator>
-   Platform adapters <components/platform-adapters>
-
 
 
 .. toctree::
