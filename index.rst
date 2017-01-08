@@ -34,9 +34,9 @@ start by looking at the :doc:`overview`.
    :hidden:
    :caption: Guides
 
-   Adding extractors <guides/adding-extractor>
-   Configure Platform adapter <guides/using-loco-adapter>
+   Configure storage adapter <guides/using-loco-adapter>
    Configure HTTPlug <guides/configure-httplug>
+   Adding extractors <guides/adding-extractor>
 
 .. toctree::
    :hidden:
