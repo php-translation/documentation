@@ -1,16 +1,20 @@
 Symfony Edit In Place
 =====================
 
-The Symfony Edit In Place feature allow to edit translations directly in the context of the page, without altering the display styles and presentation.
+The Symfony Edit In Place feature allow to edit translations directly in the context of a page, without altering the display styles and presentation. It provides an easy to use interface, even in production.
 
-Users are able to change any translated text directly on a web page, and save them to your configured translation configurations.
+Users are able to change any translated text directly on the web page, and save them to the configured translation configurations.
 
 .. figure:: /assets/image/edit-in-place-demo.gif
     :width: 900px
     :align: center
     :alt: Demonstration of the Edit In Place feature
 
-*Some translated string can't be translated via this feature, like HTML Input placeholder or title tag for example. The JavaScript part is using ContentTools by Anthony Blackshaw, which use the HTML contenteditable attribute.*
+Limitations and trade-off
+-------------------------
+
+- Some translated string can't be translated via this feature, like HTML Input placeholder or title tag for example. The JavaScript part is using ContentTools by Anthony Blackshaw, which use the HTML contenteditable attribute;
+- Upon saving, the Symfony translation cache is re-generated to allow the user to see the new content. This can be an issue on read-only deployments.
 
 Configuration
 -------------
@@ -39,7 +43,7 @@ Configuration
     that saves the modifications you should be aware of the following:
 
     - The routes **must** be in a protected area of your application
-    - The routes **must** be in the production routing file if you want allow real users to use the feature.
+    - The routes **should** be in the production routing file if you want allow real users to use the feature.
 
 
 .. note::
