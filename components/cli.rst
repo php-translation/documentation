@@ -11,10 +11,11 @@ the WebUI so you can edit translations in a nice user interface.
 Download
 --------
 
-```bash
-wget https://php-translation.github.io/cli/downloads/translation.phar
-chmod +x translation.phar
-```
+.. code-block:: bash
+
+    wget https://php-translation.github.io/cli/downloads/translation.phar
+    chmod +x translation.phar
+
 
 Configuration
 -------------
