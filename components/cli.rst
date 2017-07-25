@@ -22,7 +22,7 @@ Configuration
 
 Every time you run the CLI it looks for a configuration file named "translation.yml"
 that should be located in the same directory that you execute the command. The
-configuration will be exact the same as for the TranslationBundle. Example::
+configuration will be exact the same as for the TranslationBundle. Example:
 
 .. code-block:: yaml
 
@@ -44,4 +44,5 @@ The CLI tool does also have a few other translation bundles installed. They are 
 by default to give you the possibility to configure different kind of remote storages.
 
 * Loco Adapter
-* Transifex Adapter
+* Flysystem Adapter
+* Phraseapp Adapter
