@@ -13,6 +13,7 @@ hotfix
 Jonge
 Nikic
 organisation
+Phraseapp
 practises
 profiler
 php
@@ -29,3 +30,4 @@ wiki
 Withlock
 workflow
 Xliff
+yml
