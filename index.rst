@@ -66,6 +66,7 @@ start by looking at the :doc:`overview`.
    Common <components/common>
    Extractor <components/extractor>
    Translator <components/translator>
+   CLI <components/cli>
 
 
 .. toctree::
