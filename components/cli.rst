@@ -26,7 +26,7 @@ configuration will be exact the same as for the TranslationBundle. Example::
 
 .. code-block:: yaml
 
-    // config.yml
+    # translation.yml
     translation:
       locales: ["en", "sv"]
       configs:
@@ -35,6 +35,7 @@ configuration will be exact the same as for the TranslationBundle. Example::
           output_dir: "%kernel.project_dir%/app/Resources/translations"
           excluded_names: ["*TestCase.php", "*Test.php"]
           excluded_dirs: [cache, data, logs]
+
 
 Other translation bundles installed
 -----------------------------------
