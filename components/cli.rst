@@ -8,6 +8,14 @@ a single PHAR.
 The CLI support extracting, syncing and downloading translations. It does also run
 the WebUI so you can edit translations in a nice user interface.
 
+Download
+--------
+
+```bash
+wget https://php-translation.github.io/cli/downloads/translation.phar
+chmod +x translation.phar
+```
+
 Configuration
 -------------
 
