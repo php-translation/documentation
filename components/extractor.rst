@@ -39,7 +39,7 @@ When the extractor is downloaded you may use it by doing the following:
 
     // Print the result
     foreach ($sourceCollection as $source) {
-      echo sprintf('Key "%s" found in %s at line %d', $source-getMessage(), $source->getPath(), $source->getLine());
+      echo sprintf('Key "%s" found in %s at line %d', $source->getMessage(), $source->getPath(), $source->getLine());
     }
 
 Architecture
@@ -93,7 +93,7 @@ you need to specify translation dynamically. You may achieve this by implementin
     use Translation\Extractor\TranslationSourceLocationContainer;
     use Symfony\Component\Form\AbstractType;
 
-    class MyCustomFromType extends AbstractType implements TranslationSourceLocationContainer
+    class MyCustomFormType extends AbstractType implements TranslationSourceLocationContainer
     {
         // ...
         public static function getTranslationSourceLocations()
