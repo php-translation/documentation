@@ -39,7 +39,7 @@ they are used. The following table is a good rule of thumb.
    "foo **.paragraph0**", "For the first paragraph after a heading."
    "foo **.paragraph1**", "For the second paragraph after a heading."
    "foo.paragraph2 **.html**", "A third paragraph where HTML is allowed inside the translation."
-   "_foo", "Starting with underscore means the the translated string should start with a lowercase letter."
+   "_foo", "Starting with underscore means the the translated string should start with a lowercase character."
    "**foo**", "For any common strings like “Show all”, “Next”, “Yes” etc."
    "**vendor.bundle.controller.action.** foo", "For any non-reusable translation."
 
