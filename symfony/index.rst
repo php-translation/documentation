@@ -14,6 +14,7 @@ Features
 - :doc:`profiler-ui`
 - :doc:`edit-in-place`
 - :doc:`auto-translate`
+- :doc:`auto-add-missing`
 
 Installation
 ------------
