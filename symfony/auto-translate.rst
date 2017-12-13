@@ -20,7 +20,7 @@ To use this feature you need to install *php-translation/translator*.
 
 .. note::
 
-    If you are having issues installing. See :doc:`../guides/configure-httplug`,
+    If you are having issues installing. See :doc:`../guides/configure-httplug`.
 
 Configuration
 -------------
