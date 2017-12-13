@@ -58,7 +58,7 @@ and a PSR-6 cache pool.
         # ...
         http_client: 'httplug.client.translator_client'
         fallback_translation:
-            service: 'google'
+            service: 'google' # 'yandex' is available as an alternative
             api_key: 'foobar'
 
 .. note::
