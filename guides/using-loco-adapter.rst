@@ -16,7 +16,7 @@ you need to find and install a storage adapter. See our :doc:`list of storage ad
 
     composer require php-translation/loco-adapter
 
-The storage adapter does also contain a bundle which needs to be installed.
+The storage adapter does also contain a bundle which needs to be enabled.
 
 .. code-block:: php
 
