@@ -53,7 +53,7 @@ Translator
    :alt: Total Downloads
 
 The translator package includes third party translation clients. Use this package
-if you want to translate a string with Google Translate or Bing Translate.
+if you want to translate a string with Google Translate, Yandex Translate or Bing Translate.
 Read more :doc:`about translators <components/translator>`.
 
 Storage adapters
