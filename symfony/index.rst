@@ -55,7 +55,7 @@ Below is an example of configuration that is great to start with.
     translation:
       locales: ["en", "fr", "sv"]
       configs:
-        app:
+        default:
           dirs: ["%kernel.root_dir%/Resources/views", "%kernel.root_dir%/../src"]
           output_dir: "%kernel.root_dir%/Resources/translations"
           excluded_names: ["*TestCase.php", "*Test.php"]
@@ -86,7 +86,7 @@ must implement `Translation\Common\Storage`.
     translation:
       locales: ["en", "fr", "sv"]
       configs:
-        app:
+        default:
           dirs: ["%kernel.root_dir%/Resources/views", "%kernel.root_dir%/../src"]
           output_dir: "%kernel.root_dir%/Resources/translations"
           remote_storage: ["php_translation.adapter.loco"]
