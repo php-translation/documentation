@@ -48,7 +48,7 @@ Loco the configuration looks like this:
           api_key: 'bazbar'
 
 When the storage adapter bundle is configured it will register a service with id
-`php_translation.adapter.loco`. Now wee need to tell the ``TranslationBundle``
+`php_translation.adapter.loco`. Now we need to tell the ``TranslationBundle``
 to use this adapter.
 
 .. note::
