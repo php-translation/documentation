@@ -79,7 +79,7 @@ Storages
 By default we store all translations on the file system. This is highly configurable.
 Many developers keep a local copy of all translations but do also use a remote storage,
 like a translations platform. You may also create your own storage. A storage service
-must implement `Translation\Common\Storage`.
+must implement ``Translation\Common\Storage``.
 
 .. code-block:: yaml
 
