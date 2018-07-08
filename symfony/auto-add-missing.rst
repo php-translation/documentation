@@ -22,3 +22,16 @@ Usage
 
 That's it. You do not have to do anything more. Translations will automatically
 pop up in your storage.
+
+Production environment
+----------------------
+
+Note: The ``TranslationDataCollector`` is not used in production environment (this file is linked with the profiler).
+For use in production, you need to decorate the translator :
+
+.. code-block:: yaml
+
+    translator.data_collector:
+        class: Symfony\Component\Translation\DataCollectorTranslator
+        decorates: translator
+        arguments: ['@translator.data_collector.inner']
