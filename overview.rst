@@ -114,7 +114,19 @@ Transifex
 
 An adapter for Transifex_.
 
+PhraseApp
+`````````
+
+.. image:: https://poser.pugx.org/php-translation/phraseapp-adapter/v/stable
+   :target: https://github.com/php-translation/phraseapp-adapter
+
+.. image:: https://poser.pugx.org/php-translation/phraseapp-adapter/downloads
+   :target: https://packagist.org/packages/php-translation/phraseapp-adapter
+   :alt: Total Downloads
+
+An adapter for PhraseApp_.
 
 .. _`Flysystem`: https://flysystem.thephpleague.com/
 .. _`Loco`: https://localise.biz/
 .. _`Transifex`: https://www.transifex.com/
+.. _`PhraseApp`: https://phraseapp.com/
