@@ -58,6 +58,7 @@ start by looking at the :doc:`overview`.
    Edit in place <symfony/edit-in-place>
    Auto translate <symfony/auto-translate>
    Auto add missing translations <symfony/auto-add-missing>
+   Application delivery <symfony/application-delivery>
 
 .. toctree::
    :hidden:

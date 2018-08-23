@@ -15,6 +15,7 @@ Features
 - :doc:`edit-in-place`
 - :doc:`auto-translate`
 - :doc:`auto-add-missing`
+- :doc:`application-delivery`
 
 Installation
 ------------
