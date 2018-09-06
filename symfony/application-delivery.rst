@@ -6,30 +6,39 @@ when you deliver your application, you have to run the
 ``translation:download`` command.
 To do so, you just have to add one line in your ``composer.json`` file.
 
-Requirement
--------------
-
-For Symfony 2.x or 3.x, the ``sensio/distribution-bundle`` is needed.
-If you don't already have it, install it with Composer
-
-.. code-block:: bash
-
-    composer require sensio/distribution-bundle
-
 
 Configuration
 -------------
 
 Update the section ``"scripts"`` of you ``composer.json`` file. 
 
-Example for Symfony 2.x or 3.x :
+Example for Symfony 2.x :
 
 .. code-block:: JSON
 
     {
       "scripts": {
         "symfony-scripts": [
-          "Translation\\Bundle\\Composer\\ScriptHandler::translationDownload"
+          "@php app/console --env=prod translation:download --cache"
+        ],
+        "post-install-cmd": [
+          "@symfony-scripts"
+        ],
+        "post-update-cmd": [
+          "@symfony-scripts"
+        ]
+      }
+    }
+
+
+Example for Symfony 3.x :
+
+.. code-block:: JSON
+
+    {
+      "scripts": {
+        "symfony-scripts": [
+          "@php bin/console --env=prod translation:download --cache"
         ],
         "post-install-cmd": [
           "@symfony-scripts"
