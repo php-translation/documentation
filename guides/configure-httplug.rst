@@ -19,8 +19,10 @@ responses for a client named ``acme`` you may do:
                 factory: 'httplug.factory.guzzle6'
                 plugins: ['httplug.plugin.logger']
                 config:
-                    verify: false
                     timeout: 2
+                    # Set verify to false if somehow you need to disable SSL certificate check.
+                    # Beware, this should always be true (default value) in production:
+                    # verify: false
 
     translation:
         http_client: 'httplug.client.acme'
