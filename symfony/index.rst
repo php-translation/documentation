@@ -93,7 +93,6 @@ must implement ``Translation\Common\Storage``.
           local_storage: ["app.custom_local_storage"]
           output_format: "yml"
 
-
 The PHP Translation organisation provides some adapters to commonly used translation
 storages. See our all :doc:`storage adapters <../overview>`
 or see an example on how to :doc:`install an adapter <../guides/using-loco-adapter>`.
