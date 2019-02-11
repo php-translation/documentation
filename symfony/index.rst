@@ -91,6 +91,8 @@ must implement ``Translation\Common\Storage``.
           output_dir: "%kernel.root_dir%/Resources/translations"
           remote_storage: ["php_translation.adapter.loco"]
           local_storage: ["app.custom_local_storage"]
+          output_format: "yml"
+
 
 The PHP Translation organisation provides some adapters to commonly used translation
 storages. See our all :doc:`storage adapters <../overview>`
