@@ -50,7 +50,7 @@ and a PSR-6 cache pool.
                 cache_pool: 'cache.provider.my_redis'
                 config:
                     default_ttl: 94608000 # three years
-                    respect_cache_headers: false # We cache no matter what the server says
+                    respect_response_cache_directives: [] # We cache no matter what the server says
         clients:
             translator_client:
                 factory: 'httplug.factory.guzzle6'
