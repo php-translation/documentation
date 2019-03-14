@@ -52,13 +52,13 @@ and a PSR-6 cache pool.
                     default_ttl: 94608000 # three years
                     respect_cache_headers: false # We cache no matter what the server says
         clients:
-            translator_client:
+            translator:
                 factory: 'httplug.factory.guzzle6'
                 plugins: ['httplug.plugin.cache', 'httplug.plugin.logger']
 
     translation:
         # ...
-        http_client: 'httplug.client.translator_client'
+        http_client: 'httplug.client.translator'
         fallback_translation:
             service: 'google' # 'yandex' is available as an alternative
             api_key: 'foobar'
