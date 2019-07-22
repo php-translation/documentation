@@ -14,6 +14,7 @@ Configuration
     translation:
       # ..
       auto_add_missing_translations:
+        enabled: true
         config_name: 'default'
       # ..
 
