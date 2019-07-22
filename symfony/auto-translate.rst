@@ -31,7 +31,8 @@ Configuration
     translation:
       # ..
       fallback_translation:
-        service: 'google'
+        enabled: true
+        service: 'google' # One of "google", "yandex", or "bing"
         api_key: 'foobar'
       # ..
 
