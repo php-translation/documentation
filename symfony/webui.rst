@@ -18,7 +18,7 @@ Configuration
 
 .. code-block:: yaml
 
-    # config/config.yml
+    # config/config.yaml
     translation:
       # ..
       webui:
@@ -28,9 +28,9 @@ Configuration
 
 .. code-block:: yaml
 
-    # config/routing_dev.yml
+    # config/routing_dev.yaml
     _translation_webui:
-        resource: "@TranslationBundle/Resources/config/routing_webui.yml"
+        resource: "@TranslationBundle/Resources/config/routing_webui.yaml"
         prefix:  /admin
 
 Go to http://localhost.dev/app_dev.php/admin/_trans

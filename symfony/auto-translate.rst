@@ -27,7 +27,7 @@ Configuration
 
 .. code-block:: yaml
 
-    # config/config.yml
+    # config/config.yaml
     translation:
       # ..
       fallback_translation:

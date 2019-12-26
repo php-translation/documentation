@@ -12,7 +12,7 @@ Configuration
 
 .. code-block:: yaml
 
-    # config/config.yml
+    # config/config.yaml
     translation:
       # ..
       symfony_profiler:
@@ -20,9 +20,9 @@ Configuration
 
 .. code-block:: yaml
 
-    # config/routing_dev.yml
+    # config/routing_dev.yaml
     _translation_profiler:
-        resource: '@TranslationBundle/Resources/config/routing_symfony_profiler.yml'
+        resource: '@TranslationBundle/Resources/config/routing_symfony_profiler.yaml'
 
 See the updated Translation page in the Symfony profiler. There are some new buttons
 on the right hand side.
