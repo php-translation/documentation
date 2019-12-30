@@ -21,7 +21,7 @@ Configuration
 
 .. code-block:: yaml
 
-    # config/config.yml
+    # config/config.yaml
     translation:
       # ..
       edit_in_place:
@@ -32,14 +32,14 @@ Configuration
 
 .. code-block:: yaml
 
-    # config/routing.yml
+    # config/routing.yaml
     _translation_edit_in_place:
-      resource: '@TranslationBundle/Resources/config/routing_edit_in_place.yml'
+      resource: '@TranslationBundle/Resources/config/routing_edit_in_place.yaml'
       prefix:  /admin
 
 .. note::
 
-    When you include the ``routing_edit_in_place.yml`` to expose the controller
+    When you include the ``routing_edit_in_place.yaml`` to expose the controller
     that saves the modifications you should be aware of the following:
 
     - The routes **must** be in a protected area of your application
@@ -117,7 +117,7 @@ For example if you wish to display the editor based on a specific authorization 
 
 .. code-block:: yaml
 
-    # services.yml
+    # services.yaml
     services:
       my_activator:
         class: AppBundle\RoleActivator
@@ -127,7 +127,7 @@ And then use this new activator in the bundle configuration:
 
 .. code-block:: yaml
 
-    # config/config.yml
+    # config/config.yaml
     translation:
       # ..
       edit_in_place:

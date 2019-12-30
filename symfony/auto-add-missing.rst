@@ -10,7 +10,7 @@ Configuration
 
 .. code-block:: yaml
 
-    # config/config.yml
+    # config/config.yaml
     translation:
       # ..
       auto_add_missing_translations:
