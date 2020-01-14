@@ -62,8 +62,8 @@ Below is an example of configuration that is great to start with.
           excluded_names: ["*TestCase.php", "*Test.php"]
           excluded_dirs: [cache, data, logs]
 
-With the configuration above you may extract all translation key from your source
-code by running
+With the configuration above you may extract all translation keys from your
+source code by running
 
 .. code-block:: bash
 
