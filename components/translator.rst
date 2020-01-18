@@ -7,7 +7,7 @@ Translate or Bing Translate.
 Installation and Usage
 ----------------------
 
-Install the extractor component with Composer
+Install the translator component with Composer
 
 .. code-block:: bash
 
