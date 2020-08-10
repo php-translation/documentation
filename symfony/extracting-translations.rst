@@ -38,17 +38,17 @@ For example, with `FOSUserBundle<https://github.com/FriendsOfSymfony/FOSUserBund
           external_translations_dir: ["%kernel.root_dir%/vendor/friendsofsymfony/user-bundle/Resources/translations"]
 
 
-Create custom extractor
------------------------
+Creating custom extractor
+-------------------------
 
-Example method whose argument we want to translate 
+Example of method whose argument we want to translate 
 
 .. code-block:: php
 
     $this->logger->addMessage("text");
 
 
-Example extractor class that we use to create translations
+Example of extractor class that we use to create translations
 
 .. code-block::	php
 
@@ -62,18 +62,17 @@ Example extractor class that we use to create translations
     
     final class MyCustomExtractor extends BasePHPVisitor implements NodeVisitor 
     {
-           
         /**
          * {@inheritdoc}
-        */
+         */
         public function beforeTraverse(array $nodes): ?Node
         {
             return null;
         }
 
         /**
-        * {@inheritdoc}
-        */
+         * {@inheritdoc}
+         */
         public function enterNode(Node $node): ?Node
         {
             if (!$node instanceof Node\Expr\MethodCall) {
@@ -95,7 +94,7 @@ Example extractor class that we use to create translations
             $callerName = isset($caller->name) ? (string) $caller->name : '';
            
             //This "if" check that we have xxx->logger->addMessage() 
-            if ($name === 'addMessage' && $callerName === 'logger' && $caller instanceof Node\Expr\MethodCall) {
+            if ($callerName === 'logger' && $caller instanceof Node\Expr\MethodCall) {
                 
                 //This "if" chack that we have first argument in method as plain text ( not as variable ) 
                 //xxx->logger->addMessage("custom-text") is acceptable
@@ -109,21 +108,20 @@ Example extractor class that we use to create translations
  
         
         /**
-        * {@inheritdoc}
-        */
+         * {@inheritdoc}
+         */
         public function leaveNode(Node $node): ?Node
         {
             return null;
         }
 
         /**
-        * {@inheritdoc}
-        */
+         * {@inheritdoc}
+         */
         public function afterTraverse(array $nodes): ?Node
         {
             return null;
         }        
-
     }
 
 
