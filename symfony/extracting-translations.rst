@@ -47,7 +47,6 @@ Example of method whose argument we want to translate
 
     $this->logger->addMessage("text");
 
-
 Example of extractor class that we use to create translations
 
 .. code-block::	php
