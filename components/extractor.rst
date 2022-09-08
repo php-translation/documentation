@@ -17,12 +17,16 @@ When the extractor is downloaded you may use it by doing the following:
 
 .. code-block:: php
 
+    <?php
+
     require "vendor/autoload.php";
 
     use Translation\Extractor\Visitor\Php\Symfony as Visitor;
+    use Translation\Extractor\FileExtractor\PHPFileExtractor;
+    use Translation\Extractor\Extractor;
 
     // Create extractor for PHP files
-    $fileExtractor = new PHPFileExtractor()
+    $fileExtractor = new PHPFileExtractor();
 
     // Add visitors
     $fileExtractor->addVisitor(new Visitor\ContainerAwareTrans());
@@ -32,15 +36,16 @@ When the extractor is downloaded you may use it by doing the following:
 
     // Add the file extractor to Extractor
     $extractor = new Extractor();
-    $extractor->addFileExtractor($this->getPHPFileExtractor());
+    $extractor->addFileExtractor($fileExtractor);
 
-    //Start extracting files
+    // Start extracting files
     $sourceCollection = $extractor->extractFromDirectory('/foo/bar');
 
     // Print the result
     foreach ($sourceCollection as $source) {
-      echo sprintf('Key "%s" found in %s at line %d', $source->getMessage(), $source->getPath(), $source->getLine());
+        echo sprintf('Key "%s" found in %s at line %d', $source->getMessage(), $source->getPath(), $source->getLine());
     }
+
 
 Architecture
 ------------
